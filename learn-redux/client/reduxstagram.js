@@ -20,14 +20,4 @@ const router = (
   </Router>
 );
 
-render(
-  <div>
-    <Main>
-      <p>grrr</p>
-    </Main>
-    <Single />
-    <PhotoGrid />
-  </div>,
-
-  document.getElementById('root')
-);
+render(router, document.getElementById('root'));

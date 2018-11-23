@@ -4,7 +4,7 @@ const Single = React.createClass({
   render() {
     return (
       <div>
-        <h1>I'm the Single</h1>
+        <h1>I'm a Single.</h1>
       </div>
     );
   }
